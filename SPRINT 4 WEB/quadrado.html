@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>robocup</title>
+
+  <style>
+    #canvas {
+      border: 1px solid #000;
+      background-image: url(./img/logo\ fiap.png);
+      background-position: center;
+      background-size: cover;
+      border-radius: 40px;
+    }
+
+
+    body {
+      width: 99%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: darkblue;
+    }
+
+    h1 {
+      font-size: 100px;
+      color: white;
+    }
+
+    .vida {
+      color: white;
+      font-size: 30px;
+    }
+
+    .container {
+      display: flex;
+      gap: 500px;
+
+    }
+
+    #FIM {
+      color: white;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+  </style>
+
+</head>
+</head>
+
+<body>
+
+  <h1>ROBOCUP</h1>
+
+  <div id="FIM"></div>
+
+  <div class="container">
+    <div class="vida" id="resultado1">VIDA =100</div>
+    <div class="vida" id="resultado2">VIDA =100</div>
+  </div>
+
+  <canvas id="canvas" width="1000" height="500">
+  </canvas>
+  <script type="text/javascript" src="./js/quadrado.js"></script>
+  <script type="text/javascript" src="./js/funcoes.js"></script>
+</body>
+
+</html>
